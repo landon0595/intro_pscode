@@ -1,4 +1,50 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
+
+This application is an item location mapping system for the storefront of Fitness and Tracking USA
+The size of the warehouse is approximately 720,000 square feet or the size of around 4 Walmart Supercenters
+Upon entrance to storefront each customer is handed a scanning device with one application loaded on to it
+Application calculates the users current position
+   Customer location is always live while in the store
+   Location uses longitude and latitude through the use of gps satellites
+Location method for items goes like this, Aisle/Bay/Location using numerics and letters
+   For example A26/48/589
+      Initial location letter is A through Z and after includes the numerics 1 through 100, ex. A48 or K23
+      Bay goes up to 100 and cant include letters
+      Location can go up to 1500 and cant include letters
+   Each item will include a different set of numbers.
+GPS Live location and destination
+   Upon opening app, user must find an in-store customer service rep for initial fitness discount set up or monthly update
+     User can opt out of fitness discount and recieve no savings
+     If user accepts to be tracked, rep must calculate height, weight and any physical disabilities of customer before letting user perticipate in discount program
+        Returning customers only have to update these stats once a month
+   User will type in on provided key pad the product name
+   Application will load item, description, price, and location
+   GPS tracking will begin
+      Gives user the average time and accurate steps it will take based on personal physical factors
+      A blue line from user to item location will appear for user to follow
+      Blue line fades out as user follows, gaining steps towards discount
+      Upon completion, the chorus from the song Celebration by Kool & The Gang will play and calculated money will be added to overall total
+      Player can then scan the product with the device and product price with be subtracted from funds gathered through steps
+Fitness Storefront is in America, item price is in USD
+Player will gain step points that will translate to a discount on current visits purchase
+   One dollar is added to purchase per 2500 steps
+   Points do not follow customer out the door, points reset on each visit
+   Max savings per day 50.00 or approximately 50 miles worth
+   Savings can only go up
+   Points can only be added on the trail given, any walks off blue line will not be calculated.
+   Upon checkout, click checkout button and a new trail will materialize
+      Points you gain walking to checkout will also be added to the users points
+App UI      
+   A checkout button/box will always be available in the top left corner of app for when the user is ready to checkout
+   Top right is steps in numerics 
+      As well as a seperate number for the gathered funds-current product price
+   Center is gps map
+   Bottom left corner is the item location
+   In the bottom right hand corner is the settings gear icon
+Upon checkout and purchase, device will be collected and an itemized receipt will be provided.
+
+At Fitness and Tracking USA we encourage our customers to save at each and every step!
+
 # ------------------------------------------------- #
 

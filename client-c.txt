@@ -1,4 +1,27 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
+
+Item === 1
+
+if items in package === 2
+   Continue to count packages in case
+else 
+   Do not add value of package to count
+
+Items in case <= 100
+    Can only be an even int
+Case is 50 packages max
+
+Items and cases can not be scanned
+   Only packages can be be scanned
+Item counter can only print even numbers 
+   2 through 50
+
+Each filled package that is scanned prints an added int of 2
+Once int of 50 is reached the counter will reset back to the int 2
+   The chorus from the song Celebration by Kool & The Gang will also play at an int count of 50 and then fade out.
+There is no limit to the amount of filled cases in this current version of CaseFiller 
+
+//Add update to include case counter
 # ------------------------------------------------- #
 

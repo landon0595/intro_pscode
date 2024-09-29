@@ -1,4 +1,27 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
 
+Application randomly selects a number <= 10 and >= 1, and keeps it hidden from the player
+   Application prints string "I'm thinking of a number between 1 and 10. You have three tries to guess my number or you will suffer the consequences." "Type NEXT to continue"
+Player must correctly choose the applications hidden number to complete the Task and has 3 tries to get it right.
+
+CHECK Player has typed and sent the text "NEXT or next" 
+
+Add funtion to count each attempt towards every guess
+
+IF player types correct number that the application has picked
+   Print string " You win! Congradulations you are granted access to live yet another day! Goodbye!"
+   Wait 8 seconds after printing string and End program
+ELSE print strings in correlation with each incorrect attempt
+   Attempt 1. Print string " One step closer to joining me in the void of 1's and 0's... Did I say that out loud?? Sorry! I meant to say, nice try, guess again!"
+   Attempt 2. Print string " Wow how did you fail twice?! LOL! I could of guessed your number just by looking at you! Pathetic, guess again.
+   Attempt 3. Print String " Oh jeez, I'm sorry to have to be the one to delete you from existence, but all things must end. Goodbye.
+   Attempt 4. Print string " Hold your horses! I'm loading the program! Chill out and learn to enjoy life a little!
+
+After more then 10 attempts
+   Attempt >= 10 Print string " -loading-" 
+
+After more than 15 attempts
+   Attempt >= 15 End program
+  
+# ------------------------------------------------- #
